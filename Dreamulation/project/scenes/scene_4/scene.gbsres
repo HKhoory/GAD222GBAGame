@@ -15,11 +15,12 @@
   "collisions": "0f82+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f82+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 496,
-  "y": 552,
+  "x": 568,
+  "y": 464,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "orange"
+  "labelColor": "orange",
+  "playerSpriteSheetId": "c5aabd8d-ea32-40ef-a0c4-05bcf1f0a79f"
 }

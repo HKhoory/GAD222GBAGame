@@ -2,25 +2,70 @@
   "_resourceType": "scene",
   "id": "eb40c4b4-87f6-4f07-8f95-81caff8cbd76",
   "_index": 0,
+  "type": "TOPDOWN",
   "name": "Scene 1",
-  "backgroundId": "00c11411-cf1b-41f9-ab33-dc2f046858a6",
-  "tilesetId": "",
+  "symbol": "scene_1",
+  "labelColor": "green",
+  "x": 360,
+  "y": 176,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "00c11411-cf1b-41f9-ab33-dc2f046858a6",
+  "tilesetId": "",
   "paletteIds": [
-    null,
+    "",
     "default-bg-1"
   ],
   "spritePaletteIds": [],
-  "collisions": "0f2a+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f2a+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_1",
-  "x": 104,
-  "y": 80,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 150,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "a88e9c88-fd02-442a-aa4b-1eceb8d74bcd"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "......",
+          "....What is this?",
+          "....Where am I..?",
+          "......",
+          "I feel someone is\nbehind me...",
+          "Let me talk to him",
+          "Instructions:\nMove with arrow",
+          "keys, press Z to \ninteract"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ad0a2a81-07ca-4035-9957-e27c4c45d389"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "labelColor": "green"
+  "collisions": "0f2a+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fa+004+0f10+004+0f8+",
+  "playerSpriteSheetId": "c5aabd8d-ea32-40ef-a0c4-05bcf1f0a79f"
 }

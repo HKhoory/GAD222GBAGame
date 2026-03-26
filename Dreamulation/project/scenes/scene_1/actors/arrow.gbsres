@@ -4,7 +4,7 @@
   "name": "Arrow",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "03a4bef6-ee1c-4d95-9841-0820e7262a53",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 2,
@@ -15,13 +15,43 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_1",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          ".. Who are you?..",
+          "... Nathan...\nIs that you?",
+          "... Help... I'm\nscared...",
+          "...Don't g0 \nouts1de...",
+          "... If you want\nto live..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "efb0b259-6bcb-495f-b0c2-507ff3c27ed3"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 3,
+  "x": 9,
   "y": 3,
   "_index": 0
 }

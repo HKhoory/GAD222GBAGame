@@ -2,30 +2,58 @@
   "_resourceType": "scene",
   "id": "e728ec7a-db6a-43bc-8784-780dcc6130b3",
   "_index": 2,
-  "name": "Scene 3",
-  "backgroundId": "4c2ddec4-b694-4c9c-9d60-70ad6c5ba63a",
-  "tilesetId": "",
-  "width": 40,
-  "height": 36,
   "type": "TOPDOWN",
-  "paletteIds": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    "default-bg-6"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "0f52+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f3+0019+0f4+008+0f3+0019+0f4+008+0f3+009+0fa+006+0f4+008+0f3+009+0fa+006+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0fc+001c+0fc+001c+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0fc+001c+0fc+001c+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f52+",
-  "autoFadeSpeed": 1,
+  "name": "Scene 3",
   "symbol": "scene_3",
   "x": 144,
   "y": 408,
-  "script": [],
+  "width": 40,
+  "height": 36,
+  "backgroundId": "4c2ddec4-b694-4c9c-9d60-70ad6c5ba63a",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-bg-6"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "... My pet is \nhungry",
+          "I need to run to\nthe corner"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "aad9ea98-271f-4448-a607-cb8d4ab2419c"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "0f52+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f3+0019+0f4+008+0f3+0019+0f4+008+0f3+009+0fa+006+0f4+008+0f3+009+0fa+006+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0fc+001c+0fc+001c+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0fc+001c+0fc+001c+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f52+",
+  "playerSpriteSheetId": "c5aabd8d-ea32-40ef-a0c4-05bcf1f0a79f"
 }

@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "03a4bef6-ee1c-4d95-9841-0820e7262a53",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -20,7 +20,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Hello"
+          "Nathan...",
+          "What took you so\nlong...?",
+          "Please come back \nhome....",
+          "...the third door\nthe third door"
         ],
         "__section": "text",
         "avatarId": "",
@@ -56,7 +59,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 18,
-  "y": 11,
+  "x": 17,
+  "y": 5,
   "_index": 0
 }
