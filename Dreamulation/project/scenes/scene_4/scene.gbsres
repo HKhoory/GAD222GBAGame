@@ -15,10 +15,28 @@
   "collisions": "0f82+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f4+003c+0f82+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 568,
-  "y": 464,
+  "x": 560,
+  "y": 504,
   "script": [],
-  "playerHit1Script": [],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "9825df6f-5622-4db4-9c60-0746ae6478f0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "7c1a11c8-7e2a-4e6d-b9b8-6ec2551a9c2b"
+    }
+  ],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "labelColor": "orange",

@@ -5,7 +5,7 @@
   "type": "TOPDOWN",
   "name": "Scene 3",
   "symbol": "scene_3",
-  "x": 144,
+  "x": 200,
   "y": 408,
   "width": 40,
   "height": 36,
@@ -29,7 +29,8 @@
       "args": {
         "text": [
           "... My pet is \nhungry",
-          "I need to run to\nthe corner"
+          "I need to run to\nthe corner",
+          "To evade them"
         ],
         "__section": "text",
         "avatarId": "",
@@ -51,7 +52,25 @@
       "id": "aad9ea98-271f-4448-a607-cb8d4ab2419c"
     }
   ],
-  "playerHit1Script": [],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "9825df6f-5622-4db4-9c60-0746ae6478f0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "9fb51998-0bae-4e83-b3d9-993ed0b23035"
+    }
+  ],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "collisions": "0f52+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f3+0019+0f4+008+0f3+0019+0f4+008+0f3+009+0fa+006+0f4+008+0f3+009+0fa+006+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0fc+001c+0fc+001c+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0fc+001c+0fc+001c+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f52+",

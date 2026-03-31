@@ -5,6 +5,21 @@
       "id": "1a011ec4-5d86-4a43-9923-4f606931bd9d__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
+    },
+    {
+      "id": "69eafe8e-63f2-4ee8-8d68-fd54abe78aa3__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "eae6099d-f4da-4315-b831-51c75a674baf__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "0a5dce1a-20df-47bf-860b-f41429bbcd2c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
     }
   ]
 }

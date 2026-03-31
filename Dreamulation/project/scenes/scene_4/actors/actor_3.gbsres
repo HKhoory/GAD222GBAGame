@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "c79364ac-e397-4826-8a8f-f214b180a81a",
+  "id": "99f04909-84c7-4493-a1e6-b08ecdb9d02e",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,15 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_3",
+  "symbol": "actor_8",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Father: When will\nyou come back?",
-          "Answer me!\nStop giving",
-          "excuses..."
+          "CALL THE POLICE",
+          "DON'T MAKE THE\nTHIEF GET AWAY"
         ],
         "__section": "text",
         "avatarId": "",
@@ -41,7 +40,21 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "20d140ec-768c-49ec-bf5e-9a20f555ec11"
+      "id": "861a17c9-edf8-4298-b231-b3694f436846"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "eae6099d-f4da-4315-b831-51c75a674baf"
+      },
+      "id": "ad724ddd-3057-4643-823f-b584c0731900"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "0a5dce1a-20df-47bf-860b-f41429bbcd2c"
+      },
+      "id": "f0ae47ed-0f6d-473b-aa2d-313bacde7aed"
     }
   ],
   "startScript": [],
@@ -49,7 +62,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 18,
+  "x": 38,
   "y": 8,
-  "_index": 0
+  "_index": 2
 }

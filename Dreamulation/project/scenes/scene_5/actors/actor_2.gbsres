@@ -86,7 +86,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "... Yes...\nand you just left."
+                "Yes... you can\nproceed in"
               ],
               "__section": "text",
               "avatarId": "",
@@ -106,6 +106,23 @@
               "closeDelayFrames": 30
             },
             "id": "b0754fd9-c202-433d-b337-98fdbb5b2418"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "fd46902b-1ab5-42e9-b645-a55a31c8b63b",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "a2e2a702-0bab-474b-aa82-cfbd60f768d4"
           }
         ],
         "false": [

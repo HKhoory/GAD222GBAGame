@@ -39,7 +39,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Well... I should\nBe Going...."
+          "There seems to be \na backpack"
         ],
         "__section": "text",
         "avatarId": "",

@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "c79364ac-e397-4826-8a8f-f214b180a81a",
+  "id": "e2a09f7f-22be-4e9d-ac12-9b246e4168bd",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,15 +14,15 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_3",
+  "symbol": "actor_7",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Father: When will\nyou come back?",
-          "Answer me!\nStop giving",
-          "excuses..."
+          "Father: You are \na disgrace to the",
+          "Family!\nCan't you even",
+          "Count money \nproperly?"
         ],
         "__section": "text",
         "avatarId": "",
@@ -41,7 +41,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "20d140ec-768c-49ec-bf5e-9a20f555ec11"
+      "id": "98c349b6-4d91-47bf-9e07-9b2c419fc792"
     }
   ],
   "startScript": [],
@@ -49,7 +49,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 18,
+  "x": 28,
   "y": 8,
-  "_index": 0
+  "_index": 1
 }

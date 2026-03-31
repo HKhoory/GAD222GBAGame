@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "1a011ec4-5d86-4a43-9923-4f606931bd9d",
+  "id": "69eafe8e-63f2-4ee8-8d68-fd54abe78aa3",
   "name": "Actor 2",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_4",
+  "symbol": "actor_6",
   "script": [],
   "startScript": [],
   "updateScript": [
@@ -26,7 +26,7 @@
         "vectorY": "L1",
         "__collapse": true
       },
-      "id": "81de3573-157e-4556-9f89-77d675d7fa0b"
+      "id": "1b360d72-4bbd-4263-8784-b2daed1d3d96"
     },
     {
       "command": "EVENT_ACTOR_GET_POSITION",
@@ -36,7 +36,7 @@
         "vectorY": "L3",
         "__collapse": false
       },
-      "id": "3b839cca-c1fe-4cfe-b1d6-57a5adf0d924"
+      "id": "6679e8fd-5b96-4413-8ae6-34c17e6ffc62"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -54,7 +54,7 @@
         "useCollisions": true,
         "__collapse": false
       },
-      "id": "cdffc12e-6ff0-4ef9-bb08-b07df18c4251"
+      "id": "33b50874-17c2-4eb2-a94b-bb43456565b4"
     },
     {
       "command": "EVENT_IF",
@@ -107,7 +107,7 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "f38bdb8a-ecf1-4239-bf1b-c63f4d3c0bd2"
+            "id": "b8f01ec8-f351-4358-88d4-cd17e1c46b4c"
           },
           {
             "command": "EVENT_WAIT",
@@ -115,12 +115,12 @@
               "time": 2,
               "frames": 30
             },
-            "id": "7cd0a39a-eaf7-4150-ad71-e6041a0ccc15"
+            "id": "8e23e4d4-b5a7-416a-9e77-9ae21ee07c35"
           }
         ],
         "false": []
       },
-      "id": "3f6bd11f-cbd3-403d-8684-f015a513c369"
+      "id": "1d9a6c4d-302a-4aad-a272-29272a6c1474"
     },
     {
       "command": "EVENT_LAUNCH_PROJECTILE",
@@ -148,13 +148,13 @@
           "1"
         ]
       },
-      "id": "b0bb7416-c9d1-4f09-b409-01b8db8fca1d"
+      "id": "aea1b557-0e49-41b6-9804-e882f562e2c6"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 35,
-  "y": 13,
-  "_index": 0
+  "x": 13,
+  "y": 32,
+  "_index": 1
 }

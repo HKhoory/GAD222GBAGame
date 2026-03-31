@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "1a011ec4-5d86-4a43-9923-4f606931bd9d",
-  "name": "Actor 2",
+  "id": "eae6099d-f4da-4315-b831-51c75a674baf",
+  "name": "Actor 3",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "c710c202-f42a-443f-8a8f-65f449891c64",
@@ -14,9 +14,17 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_4",
+  "symbol": "actor_9",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a1aeab52-dd80-4950-98c2-9455f999f62b"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_ACTOR_GET_POSITION",
@@ -26,7 +34,7 @@
         "vectorY": "L1",
         "__collapse": true
       },
-      "id": "81de3573-157e-4556-9f89-77d675d7fa0b"
+      "id": "9fc6e962-2364-4f2b-bde1-7b6c0d83229f"
     },
     {
       "command": "EVENT_ACTOR_GET_POSITION",
@@ -36,7 +44,7 @@
         "vectorY": "L3",
         "__collapse": false
       },
-      "id": "3b839cca-c1fe-4cfe-b1d6-57a5adf0d924"
+      "id": "5a83d3f6-313f-460e-ae17-0efe1092ff63"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -54,7 +62,7 @@
         "useCollisions": true,
         "__collapse": false
       },
-      "id": "cdffc12e-6ff0-4ef9-bb08-b07df18c4251"
+      "id": "90f3913b-5681-4589-9aa2-d888ebd3ac8e"
     },
     {
       "command": "EVENT_IF",
@@ -107,7 +115,7 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "f38bdb8a-ecf1-4239-bf1b-c63f4d3c0bd2"
+            "id": "85d28c5a-c89a-4cae-aac9-7628d5c82eab"
           },
           {
             "command": "EVENT_WAIT",
@@ -115,12 +123,12 @@
               "time": 2,
               "frames": 30
             },
-            "id": "7cd0a39a-eaf7-4150-ad71-e6041a0ccc15"
+            "id": "05bf59fa-b59c-4604-be1e-fcca3eccc6f9"
           }
         ],
         "false": []
       },
-      "id": "3f6bd11f-cbd3-403d-8684-f015a513c369"
+      "id": "633ec76e-7623-4621-915c-7a55a9fd6a33"
     },
     {
       "command": "EVENT_LAUNCH_PROJECTILE",
@@ -148,13 +156,13 @@
           "1"
         ]
       },
-      "id": "b0bb7416-c9d1-4f09-b409-01b8db8fca1d"
+      "id": "a7764463-cdf0-4d2d-846e-66f28af999af"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 35,
-  "y": 13,
-  "_index": 0
+  "x": 51,
+  "y": 5,
+  "_index": 3
 }

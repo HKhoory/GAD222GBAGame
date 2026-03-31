@@ -1,20 +1,14 @@
 {
-  "_resourceType": "actor",
-  "id": "133aa560-502b-4489-9c7b-d742a829f103",
+  "_resourceType": "trigger",
+  "id": "da9fb27f-b295-4c88-941b-cd33779cb5f3",
   "name": "",
-  "frame": 0,
-  "animate": false,
-  "spriteSheetId": "03a4bef6-ee1c-4d95-9841-0820e7262a53",
   "prefabId": "",
-  "direction": "down",
-  "moveSpeed": 1,
-  "animSpeed": 15,
-  "paletteId": "",
-  "isPinned": false,
-  "persistent": false,
-  "collisionGroup": "",
+  "x": 9,
+  "y": 13,
+  "symbol": "trigger_6",
   "prefabScriptOverrides": {},
-  "symbol": "actor_2",
+  "width": 2,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_IF",
@@ -23,14 +17,14 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "32"
+            "value": "31"
           },
           "valueB": {
             "type": "number",
             "value": 0
           }
         },
-        "__collapseElse": false
+        "__collapseElse": true
       },
       "children": {
         "true": [
@@ -38,10 +32,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Nathan...",
-                "Can you help me...",
-                "Please get my \nbackpack",
-                "from the 3rd \ntrain station..."
+                "Hmm...",
+                "What is this \nplace?..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -60,16 +52,14 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "a8a039b5-256e-40c7-ab91-6326eb975309"
-          }
-        ],
-        "false": [
+            "id": "03fa8eba-adfb-4bd7-8a3d-209665061111"
+          },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Oh thank you so \nmuch!",
-                "Can finally leave"
+                "I feel like I\nremember...\n",
+                "These corridors..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -88,35 +78,25 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "331430d0-bd7c-4cc0-8e71-f69d250f8f99"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "$self$"
-            },
-            "id": "27bc7993-24c4-4619-bc8c-adec44a83a07"
+            "id": "9f5c91aa-7661-426a-8cc4-17ce933eaaea"
           }
-        ]
+        ],
+        "false": []
       },
-      "id": "86d90265-f25a-4418-b9c0-dbc07bbcee7f"
-    }
-  ],
-  "startScript": [
+      "id": "a4b3f17a-2903-4e62-b325-e7046d1de7c9"
+    },
     {
-      "command": "EVENT_ACTOR_EMOTE",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "actorId": "$self$",
-        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+        "variable": "31",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
       },
-      "id": "e9589414-1180-4650-8f78-860195194639"
+      "id": "c9bc69c9-e44b-4ec7-925d-29d8ba201259"
     }
   ],
-  "updateScript": [],
-  "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": [],
-  "x": 17,
-  "y": 5,
-  "_index": 0
+  "leaveScript": [],
+  "_index": 2
 }

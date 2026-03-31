@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5e8256f4-7593-485b-acc8-b067673e324b",
+  "name": "Gameober",
+  "symbol": "bg_gameober",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Gameober.png",
+  "tileColors": ""
+}

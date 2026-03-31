@@ -1,0 +1,125 @@
+{
+  "_resourceType": "scene",
+  "id": "9825df6f-5622-4db4-9c60-0746ae6478f0",
+  "_index": 5,
+  "name": "Scene 6",
+  "backgroundId": "5e8256f4-7593-485b-acc8-b067673e324b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 1160,
+  "y": 488,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Game Over....",
+          "Retry Again?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "431e2c9c-d754-43a1-864f-d846a0b02399"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "20",
+        "trueText": "Yes",
+        "falseText": "No"
+      },
+      "id": "2637d2b1-cdcb-4c27-b8de-ef5742c63ae9"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "20"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "eb40c4b4-87f6-4f07-8f95-81caff8cbd76",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "6aeaf224-723a-4671-bf84-b86e194fdb8e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Press \"X\" to close\nthe game"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "87743d72-d0bc-4106-bd00-978206664ee8"
+          }
+        ]
+      },
+      "id": "e1d306fc-c1fc-45b6-8d73-f3c2abeedc4b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "a5e45fc3-a18a-4166-a78a-a229f1774ff9"
+}

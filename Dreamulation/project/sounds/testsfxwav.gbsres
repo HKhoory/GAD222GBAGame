@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "36090624-77f0-4cbe-ab16-ac7f1f477b77",
+  "name": "testSFX.wav",
+  "symbol": "sound_testsfx_wav",
+  "filename": "testSFX.wav",
+  "type": "wav"
+}

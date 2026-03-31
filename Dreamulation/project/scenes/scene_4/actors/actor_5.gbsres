@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "1a011ec4-5d86-4a43-9923-4f606931bd9d",
+  "id": "0a5dce1a-20df-47bf-860b-f41429bbcd2c",
   "name": "Actor 2",
   "frame": 0,
   "animate": false,
@@ -14,9 +14,17 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_4",
+  "symbol": "actor_10",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "5a8d8eb3-b7b4-450e-ab07-97225707e052"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_ACTOR_GET_POSITION",
@@ -26,7 +34,7 @@
         "vectorY": "L1",
         "__collapse": true
       },
-      "id": "81de3573-157e-4556-9f89-77d675d7fa0b"
+      "id": "30c65bfb-5b4e-479a-9904-16ce09c2882e"
     },
     {
       "command": "EVENT_ACTOR_GET_POSITION",
@@ -36,7 +44,7 @@
         "vectorY": "L3",
         "__collapse": false
       },
-      "id": "3b839cca-c1fe-4cfe-b1d6-57a5adf0d924"
+      "id": "d5774f10-26fa-45ef-8686-5bb18bf31d52"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -54,7 +62,7 @@
         "useCollisions": true,
         "__collapse": false
       },
-      "id": "cdffc12e-6ff0-4ef9-bb08-b07df18c4251"
+      "id": "4da57524-d3a5-453e-886c-5fc1d9440b73"
     },
     {
       "command": "EVENT_IF",
@@ -107,7 +115,7 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "f38bdb8a-ecf1-4239-bf1b-c63f4d3c0bd2"
+            "id": "8eeb812a-725a-4267-8fb2-4fd9042b36a2"
           },
           {
             "command": "EVENT_WAIT",
@@ -115,12 +123,12 @@
               "time": 2,
               "frames": 30
             },
-            "id": "7cd0a39a-eaf7-4150-ad71-e6041a0ccc15"
+            "id": "92f7b5a5-f9e9-4a25-9c6a-690532fe6cfe"
           }
         ],
         "false": []
       },
-      "id": "3f6bd11f-cbd3-403d-8684-f015a513c369"
+      "id": "8b139332-8386-40c8-b1c3-dba9e0fce66c"
     },
     {
       "command": "EVENT_LAUNCH_PROJECTILE",
@@ -148,13 +156,13 @@
           "1"
         ]
       },
-      "id": "b0bb7416-c9d1-4f09-b409-01b8db8fca1d"
+      "id": "373746f5-0f87-4b3a-a40c-5df6545bd654"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 35,
-  "y": 13,
-  "_index": 0
+  "x": 51,
+  "y": 11,
+  "_index": 4
 }

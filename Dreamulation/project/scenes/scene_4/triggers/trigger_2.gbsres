@@ -11,21 +11,78 @@
   "height": 2,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_TEXT",
       "args": {
-        "sceneId": "28aca459-ff01-4fa8-93d3-995f0dad7d2d",
-        "x": {
-          "type": "number",
-          "value": 5
-        },
-        "y": {
-          "type": "number",
-          "value": 31
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "text": [
+          "Enter the well?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "838be589-a8fa-4e0a-972c-aae6631b315e"
+      "id": "dfeb8b7b-eec4-482e-8470-468128f16626"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "36",
+        "trueText": "Yes",
+        "falseText": "No"
+      },
+      "id": "5e57d8a9-eeee-4d86-881f-f84d00c3aec7"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "36"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "28aca459-ff01-4fa8-93d3-995f0dad7d2d",
+              "x": {
+                "type": "number",
+                "value": 5
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "838be589-a8fa-4e0a-972c-aae6631b315e"
+          }
+        ],
+        "false": []
+      },
+      "id": "81003d64-1394-4c0d-ab12-f327e514e2a9"
     }
   ],
   "leaveScript": [],
