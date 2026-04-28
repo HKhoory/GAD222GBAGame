@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "eae6099d-f4da-4315-b831-51c75a674baf",
-  "name": "Actor 3",
+  "id": "03c2623c-4e40-4729-bb9b-96e3d834c971",
+  "name": "Actor 2",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "c710c202-f42a-443f-8a8f-65f449891c64",
@@ -14,15 +14,38 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_9",
+  "symbol": "actor_29",
   "script": [],
   "startScript": [
     {
-      "command": "EVENT_ACTOR_HIDE",
+      "command": "EVENT_IF",
       "args": {
-        "actorId": "$self$"
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "15"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "a1aeab52-dd80-4950-98c2-9455f999f62b"
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "04986c78-c7e7-433b-b6c4-f569105da52a"
+          }
+        ]
+      },
+      "id": "e5a407f3-7213-4a4d-9b97-453a02c159e4"
     }
   ],
   "updateScript": [
@@ -34,7 +57,7 @@
         "vectorY": "L1",
         "__collapse": true
       },
-      "id": "9fc6e962-2364-4f2b-bde1-7b6c0d83229f"
+      "id": "41c1a7f2-2536-4217-829d-984da096767e"
     },
     {
       "command": "EVENT_ACTOR_GET_POSITION",
@@ -44,7 +67,7 @@
         "vectorY": "L3",
         "__collapse": false
       },
-      "id": "5a83d3f6-313f-460e-ae17-0efe1092ff63"
+      "id": "287d4e35-bec6-4f61-a7e3-5ea5e926ec42"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -62,7 +85,7 @@
         "useCollisions": true,
         "__collapse": false
       },
-      "id": "90f3913b-5681-4589-9aa2-d888ebd3ac8e"
+      "id": "dab3b492-74a0-406e-8730-23b43ecb6024"
     },
     {
       "command": "EVENT_IF",
@@ -93,47 +116,22 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "I'M COMING FOR YOU"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": 1,
-              "speedOut": 1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "85d28c5a-c89a-4cae-aac9-7628d5c82eab"
-          },
-          {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 2,
+              "time": 1,
               "frames": 30
             },
-            "id": "05bf59fa-b59c-4604-be1e-fcca3eccc6f9"
+            "id": "f17e634b-d0ca-4ee5-af6a-16922cc9860b"
           }
         ],
         "false": []
       },
-      "id": "633ec76e-7623-4621-915c-7a55a9fd6a33"
+      "id": "71675e78-0238-432a-958f-6e7301f5c2d2"
     },
     {
       "command": "EVENT_LAUNCH_PROJECTILE",
       "args": {
-        "__section": "source",
+        "__section": "projectile",
         "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
         "spriteStateId": "",
         "actorId": "$self$",
@@ -146,23 +144,24 @@
         "angleVariable": "L0",
         "targetActorId": "player",
         "initialOffset": 0,
-        "speed": 2,
+        "speed": 1,
         "animSpeed": 15,
         "lifeTime": 1,
         "loopAnim": true,
         "destroyOnHit": true,
         "collisionGroup": "3",
         "collisionMask": [
-          "1"
+          "1",
+          "player"
         ]
       },
-      "id": "a7764463-cdf0-4d2d-846e-66f28af999af"
+      "id": "6235b877-60be-4ab0-bf8f-359df1a4731e"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 51,
-  "y": 5,
-  "_index": 3
+  "x": 25,
+  "y": 13,
+  "_index": 5
 }

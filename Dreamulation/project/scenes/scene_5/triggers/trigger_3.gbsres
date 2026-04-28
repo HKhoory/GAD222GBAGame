@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "910410ab-afd4-4db3-8536-009e3adaad8a",
+  "name": "",
+  "prefabId": "",
+  "x": 62,
+  "y": 12,
+  "symbol": "trigger_16",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 4,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "There is something\npreventing me\nfrom returning"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "492bacc9-d7f6-4b47-9937-3ecc00f8a8d2"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

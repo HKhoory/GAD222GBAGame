@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "9825df6f-5622-4db4-9c60-0746ae6478f0",
   "_index": 5,
-  "name": "Scene 6",
+  "name": "GameOver",
   "backgroundId": "5e8256f4-7593-485b-acc8-b067673e324b",
   "tilesetId": "",
   "width": 20,
@@ -13,14 +13,14 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 1160,
-  "y": 488,
+  "x": 1616,
+  "y": 296,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Game Over....",
+          "Game Over....\n(Ending 2)",
           "Retry Again?"
         ],
         "__section": "text",

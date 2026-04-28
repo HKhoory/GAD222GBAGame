@@ -17,14 +17,14 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "33"
+            "value": "7"
           },
           "valueB": {
             "type": "number",
             "value": 0
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -33,9 +33,7 @@
             "args": {
               "text": [
                 "I remember these\ncorridors...",
-                "I'll have to find\nthe keys to the ",
-                "third door\nto get",
-                "to the train\nstation"
+                "I'll have to find\nthe keys to the "
               ],
               "__section": "text",
               "avatarId": "",
@@ -81,22 +79,39 @@
               "closeDelayFrames": 30
             },
             "id": "8eb2a087-2fa7-4326-af0e-6fd29003465f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "3eed4f8d-9ba5-41d8-b8e7-9bbe3dcbde01"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "e665d784-3473-43ec-bcd9-a8196c2e3f4e",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "46e34b54-57a3-49e4-b5f0-17111316d27b"
           }
         ],
         "false": []
       },
       "id": "c94aca73-48cb-411e-9b56-784544ba5658"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "33",
-        "value": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "2c7e3886-2d68-4494-a8d3-fbe06e7d5406"
     }
   ],
   "leaveScript": [],

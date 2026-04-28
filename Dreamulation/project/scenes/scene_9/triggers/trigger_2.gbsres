@@ -1,0 +1,59 @@
+{
+  "_resourceType": "trigger",
+  "id": "36b1a1f5-e9bf-415c-b1a4-95b785e3b2f0",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 10,
+  "symbol": "trigger_17",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 6,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Wait what?\nNo....",
+          "I feel like I'm\ngoing backwards\n-.. --- .-- -."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "cc716617-5b53-4043-9d48-49aab30432af"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "eb40c4b4-87f6-4f07-8f95-81caff8cbd76",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "26d6af55-0a21-47ec-9cc8-2ea75b51f127"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

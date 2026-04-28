@@ -20,9 +20,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Father: You are \na disgrace to the",
-          "Family!\nCan't you even",
-          "Count money \nproperly?"
+          "Father: Son\nLEAVE NOW",
+          "THERE IS A KNIFE\nFIGHT GOING ON!"
         ],
         "__section": "text",
         "avatarId": "",

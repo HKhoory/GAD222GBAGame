@@ -23,7 +23,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "L0"
+            "value": "30"
           },
           "valueB": {
             "type": "number",
@@ -99,7 +99,7 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "30",
+        "variable": "0",
         "value": {
           "type": "number",
           "value": 1

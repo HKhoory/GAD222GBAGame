@@ -1,0 +1,58 @@
+{
+  "_resourceType": "trigger",
+  "id": "1deb1c91-b534-4b3d-b898-6560e5d390c2",
+  "name": "",
+  "prefabId": "",
+  "x": 20,
+  "y": 18,
+  "symbol": "trigger_26",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Aha!\nI phased in for \nsome reason..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9afa477f-a98e-4a86-891a-a8cf7cd82dfd"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e728ec7a-db6a-43bc-8784-780dcc6130b3",
+        "x": {
+          "type": "number",
+          "value": 34
+        },
+        "y": {
+          "type": "number",
+          "value": 21
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "0772d7f8-83e5-451f-87ed-1e884a3e9c9c"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

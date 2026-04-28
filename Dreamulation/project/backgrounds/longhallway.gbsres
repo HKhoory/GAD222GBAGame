@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1480cec1-5616-4987-b11e-ab312538ae7c",
+  "name": "longHallway",
+  "symbol": "bg_longhallway",
+  "width": 60,
+  "height": 54,
+  "imageWidth": 480,
+  "imageHeight": 432,
+  "filename": "longHallway.png",
+  "tileColors": "",
+  "autoColor": false
+}

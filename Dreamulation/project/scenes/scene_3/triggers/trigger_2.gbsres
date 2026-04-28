@@ -1,0 +1,56 @@
+{
+  "_resourceType": "trigger",
+  "id": "fe61e3fa-2eba-4560-8995-9944746c8bb2",
+  "name": "",
+  "prefabId": "",
+  "x": 20,
+  "y": 14,
+  "symbol": "trigger_22",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "1a011ec4-5d86-4a43-9923-4f606931bd9d"
+      },
+      "id": "aa18705c-2501-4b8b-8478-332e57dc7d52"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "69eafe8e-63f2-4ee8-8d68-fd54abe78aa3"
+      },
+      "id": "c272cfe9-0378-4327-ad4d-bfc299e36505"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I hear someone\nsprinting towards ",
+          "me...."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "851ad813-3785-420f-a22e-942cba860189"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

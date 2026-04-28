@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2dddcbac-a098-4d8c-899f-22cfce7af9c4",
+  "name": "HospitalRoom",
+  "symbol": "bg_hospitalroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "HospitalRoom.png",
+  "tileColors": ""
+}

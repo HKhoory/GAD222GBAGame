@@ -23,7 +23,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "32"
+            "value": "1"
           },
           "valueB": {
             "type": "number",
@@ -65,11 +65,24 @@
         ],
         "false": [
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "582634df-26f1-431d-8f10-1740fac42f14"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
                 "Oh thank you so \nmuch!",
-                "Can finally leave"
+                "oh....",
+                "your brother was\nasking for you",
+                "he should have \nunlocked that door"
               ],
               "__section": "text",
               "avatarId": "",
@@ -102,16 +115,7 @@
       "id": "86d90265-f25a-4418-b9c0-dbc07bbcee7f"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
-      },
-      "id": "e9589414-1180-4650-8f78-860195194639"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

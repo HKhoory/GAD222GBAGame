@@ -3,8 +3,8 @@
   "id": "6843db8b-d53c-4502-9a33-bdc4903226b9",
   "name": "",
   "prefabId": "",
-  "x": 23,
-  "y": 7,
+  "x": 55,
+  "y": 0,
   "symbol": "trigger_5",
   "prefabScriptOverrides": {},
   "width": 2,
@@ -14,7 +14,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Enter the well?"
+          "Exit train \nstation?"
         ],
         "__section": "text",
         "avatarId": "",

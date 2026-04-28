@@ -1,0 +1,51 @@
+{
+  "_resourceType": "scene",
+  "id": "3ff52070-6754-4e90-8d37-9448218a33e7",
+  "_index": 20,
+  "name": "Scene 16",
+  "backgroundId": "2dddcbac-a098-4d8c-899f-22cfce7af9c4",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 1832,
+  "y": 288,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "",
+          "He seems to be in\nsome sort of",
+          "coma...."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ffeb4994-9171-476a-abd6-12f1c68ed586"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "312e2e54-0e92-4c69-98e1-2dcdd3cefa3f"
+}

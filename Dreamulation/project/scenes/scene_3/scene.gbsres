@@ -6,7 +6,7 @@
   "name": "Scene 3",
   "symbol": "scene_3",
   "x": 200,
-  "y": 408,
+  "y": 504,
   "width": 40,
   "height": 36,
   "backgroundId": "4c2ddec4-b694-4c9c-9d60-70ad6c5ba63a",
@@ -25,31 +25,83 @@
   "autoFadeSpeed": 1,
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "... My pet is \nhungry",
-          "I need to run to\nthe corner",
-          "To evade them"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "aad9ea98-271f-4448-a607-cb8d4ab2419c"
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "BAIWENFVQW$EPGJWN%\nSG>P%$Y$%#$&K",
+                "|||||||||||||||||\n",
+                "... what is this\n?",
+                "I feel something.."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": 1,
+              "speedOut": 1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "aad9ea98-271f-4448-a607-cb8d4ab2419c"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "3",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "3d3492a6-8ae9-4b56-ab07-12e4b417aeaf"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "bbee7d18-9ed2-49a8-865a-0061017b7520",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "2454ac1f-9fc2-4481-a79c-a2439cdd395b"
+          }
+        ]
+      },
+      "id": "c5bf9bc7-e97f-4382-b486-9f29095cca5d"
     }
   ],
   "playerHit1Script": [
@@ -73,6 +125,6 @@
   ],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f52+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f3+0019+0f4+008+0f3+0019+0f4+008+0f3+009+0fa+006+0f4+008+0f3+009+0fa+006+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0fc+001c+0fc+001c+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0fc+001c+0fc+001c+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f52+",
+  "collisions": "0f52+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+001a+0f4+008+0f2+00a+0fa+006+0f4+008+0f2+00a+0fa+006+0f4+0024+0f4+0024+0f4+0012+0f6+00c+0f4+0012+0f6+00c+0f4+0018+0f2+002+0f2+006+0f4+0018+0f2+002+0f2+006+0fc+00a+0f4+002+0f4+008+0fc+00a+0f4+002+0f4+008+0f4+0014+0f2+002+0f2+004+0f2+004+0f4+0014+0f2+002+0f2+004+0f2+004+0f4+0012+0f2+004+0f2+00a+0f4+0012+0f2+004+0f2+00a+0f4+0012+0f2+002+0f6+002+0f2+004+0f4+0012+0f2+002+0f6+002+0f2+004+0fc+00a+0f2+00a+0f2+004+0fc+00a+0f2+00a+0f2+004+0f4+0014+0f6+004+0f2+004+0f4+0014+0f6+004+0f2+004+0f4+001c+0f4+004+0f4+001c+0f4+004+0f4+001c+0f2+006+0f4+001c+0f2+006+0f4+001c+0f2+006+0f4+001c+0f2+006+0f52+",
   "playerSpriteSheetId": "c5aabd8d-ea32-40ef-a0c4-05bcf1f0a79f"
 }

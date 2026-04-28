@@ -1,0 +1,33 @@
+{
+  "_resourceType": "scene",
+  "id": "c89de74d-997a-4618-a7a0-f6673ed33467",
+  "_index": 11,
+  "type": "TOPDOWN",
+  "name": "Scene 12",
+  "symbol": "scene_12",
+  "x": 896,
+  "y": 568,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "00c11411-cf1b-41f9-ab33-dc2f046858a6",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "default-bg-1",
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "c5aabd8d-ea32-40ef-a0c4-05bcf1f0a79f",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f2a+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fa+004+0f10+004+0f8+"
+}

@@ -3,8 +3,8 @@
   "id": "2551a970-9654-495a-a330-2595d10cef9f",
   "name": "",
   "prefabId": "",
-  "x": 13,
-  "y": 7,
+  "x": 12,
+  "y": 3,
   "symbol": "trigger_2",
   "prefabScriptOverrides": {},
   "width": 2,
@@ -63,7 +63,7 @@
     {
       "command": "EVENT_MENU",
       "args": {
-        "variable": "6",
+        "variable": "1",
         "items": 2,
         "option1": "Take the item",
         "option2": "Leave",
@@ -85,7 +85,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "6"
+            "value": "1"
           },
           "valueB": {
             "type": "number",

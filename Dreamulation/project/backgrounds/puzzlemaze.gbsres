@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1e697287-b5b1-46f6-9bb3-11cbd3c3ce2f",
+  "name": "puzzleMaze",
+  "symbol": "bg_puzzlemaze",
+  "width": 26,
+  "height": 26,
+  "imageWidth": 208,
+  "imageHeight": 208,
+  "filename": "puzzleMaze.png",
+  "tileColors": "",
+  "autoColor": false
+}

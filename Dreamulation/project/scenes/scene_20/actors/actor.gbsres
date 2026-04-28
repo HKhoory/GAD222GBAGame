@@ -1,0 +1,77 @@
+{
+  "_resourceType": "actor",
+  "id": "d88ab73c-8dcd-4cd3-9423-e8ba75ab3927",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "03a4bef6-ee1c-4d95-9841-0820e7262a53",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_30",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "....",
+          "======",
+          "What did you\nExpect?",
+          "... I don't feel\nlike you are my",
+          "son....",
+          ".....\nJust a failure",
+          "for my business...",
+          "Look at all of \nthese losses..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6fd71f53-c42f-4d7c-82c5-3691187fff91"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e728ec7a-db6a-43bc-8784-780dcc6130b3",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 30
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "76006e88-bf75-4e6d-8ba8-5e2a9dd8bf72"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 9,
+  "_index": 0
+}

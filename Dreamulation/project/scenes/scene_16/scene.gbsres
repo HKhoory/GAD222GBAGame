@@ -1,0 +1,97 @@
+{
+  "_resourceType": "scene",
+  "id": "4740bc0c-d6a1-4435-b541-b1c187bd5db1",
+  "_index": 15,
+  "name": "Scene 16",
+  "backgroundId": "2dddcbac-a098-4d8c-899f-22cfce7af9c4",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 1616,
+  "y": 72,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Hmm....",
+          "He seems to be in\nsome sort of",
+          "coma...."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3ff83e8d-37fb-408e-9eb9-75033825fe1a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          ".....",
+          "It would be risky\nto open up",
+          "his brain right\nnow....",
+          "The sedatives\naren't even ",
+          "working..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3e9f49e4-9059-48b4-908f-e341610ad6e5"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e728ec7a-db6a-43bc-8784-780dcc6130b3",
+        "x": {
+          "type": "number",
+          "value": 7
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "3a74c088-ccd9-4739-9c29-fc35bde5e0d4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "312e2e54-0e92-4c69-98e1-2dcdd3cefa3f"
+}

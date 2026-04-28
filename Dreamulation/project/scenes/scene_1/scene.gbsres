@@ -6,8 +6,8 @@
   "name": "Scene 1",
   "symbol": "scene_1",
   "labelColor": "green",
-  "x": 360,
-  "y": 176,
+  "x": 208,
+  "y": 280,
   "width": 20,
   "height": 18,
   "backgroundId": "00c11411-cf1b-41f9-ab33-dc2f046858a6",
@@ -19,6 +19,13 @@
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
   "script": [
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "dfe1fd0d-3c30-4abf-8086-81cf3a6a3202"
+    },
     {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
       "args": {
@@ -61,6 +68,13 @@
         "closeDelayFrames": 30
       },
       "id": "ad0a2a81-07ca-4035-9957-e27c4c45d389"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "7b0d6f68-2fc9-4cc3-980c-999be297ab53"
     }
   ],
   "playerHit1Script": [],

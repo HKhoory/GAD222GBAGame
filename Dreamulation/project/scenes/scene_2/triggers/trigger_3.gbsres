@@ -58,8 +58,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I feel like I\nremember...\n",
-                "These corridors..."
+                "I feel like I\nhear...\n",
+                "something..."
               ],
               "__section": "text",
               "avatarId": "",

@@ -20,9 +20,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Father: When will\nyou come back?",
-          "Answer me!\nStop giving",
-          "excuses..."
+          "Father: When are\nyou coming back?",
+          "And where is her\nbackpack?"
         ],
         "__section": "text",
         "avatarId": "",

@@ -8,5 +8,6 @@
   "imageWidth": 256,
   "imageHeight": 240,
   "filename": "mainHome.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

@@ -1,0 +1,68 @@
+{
+  "_resourceType": "scene",
+  "id": "068a6a2e-da36-4e26-9239-87f9380777f3",
+  "_index": 12,
+  "name": "Scene 13",
+  "backgroundId": "5e8256f4-7593-485b-acc8-b067673e324b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 752,
+  "y": 1088,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "YOU FELL TO YOUR\nOWN TRAP",
+          "DESTROY HIS BODY"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0b1b9865-bd14-4b73-b64e-6f24b268a2dc"
+    }
+  ],
+  "playerHit1Script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "9825df6f-5622-4db4-9c60-0746ae6478f0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "59e1ec4b-c574-4f02-bbbe-b9b9309bfd76"
+    }
+  ],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c5aabd8d-ea32-40ef-a0c4-05bcf1f0a79f"
+}

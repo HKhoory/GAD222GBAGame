@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "0a5dce1a-20df-47bf-860b-f41429bbcd2c",
+  "id": "5489358b-1627-41eb-8943-57692c1a70ae",
   "name": "Actor 2",
   "frame": 0,
   "animate": false,
@@ -14,15 +14,38 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_10",
+  "symbol": "actor_27",
   "script": [],
   "startScript": [
     {
-      "command": "EVENT_ACTOR_HIDE",
+      "command": "EVENT_IF",
       "args": {
-        "actorId": "$self$"
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "15"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "5a8d8eb3-b7b4-450e-ab07-97225707e052"
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "c9aee70e-e81d-459c-9619-6810d8a11ab7"
+          }
+        ]
+      },
+      "id": "f819ec93-9636-4923-b671-ad0b1fb789b0"
     }
   ],
   "updateScript": [
@@ -34,7 +57,7 @@
         "vectorY": "L1",
         "__collapse": true
       },
-      "id": "30c65bfb-5b4e-479a-9904-16ce09c2882e"
+      "id": "8082b3ce-5f39-4721-8643-71d342bb8125"
     },
     {
       "command": "EVENT_ACTOR_GET_POSITION",
@@ -44,7 +67,7 @@
         "vectorY": "L3",
         "__collapse": false
       },
-      "id": "d5774f10-26fa-45ef-8686-5bb18bf31d52"
+      "id": "0b2fc2a1-a6db-4141-98cb-43b83fb90029"
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -62,7 +85,7 @@
         "useCollisions": true,
         "__collapse": false
       },
-      "id": "4da57524-d3a5-453e-886c-5fc1d9440b73"
+      "id": "5b0fb157-f131-4b69-a519-13d1da1a3cdd"
     },
     {
       "command": "EVENT_IF",
@@ -93,47 +116,22 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "I'M COMING FOR YOU"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": 1,
-              "speedOut": 1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "8eeb812a-725a-4267-8fb2-4fd9042b36a2"
-          },
-          {
             "command": "EVENT_WAIT",
             "args": {
-              "time": 2,
+              "time": 1,
               "frames": 30
             },
-            "id": "92f7b5a5-f9e9-4a25-9c6a-690532fe6cfe"
+            "id": "e23f749c-2d00-4cd6-ace6-24794584243a"
           }
         ],
         "false": []
       },
-      "id": "8b139332-8386-40c8-b1c3-dba9e0fce66c"
+      "id": "e30a64de-139a-4bcb-b89f-529638b796db"
     },
     {
       "command": "EVENT_LAUNCH_PROJECTILE",
       "args": {
-        "__section": "source",
+        "__section": "projectile",
         "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
         "spriteStateId": "",
         "actorId": "$self$",
@@ -146,7 +144,7 @@
         "angleVariable": "L0",
         "targetActorId": "player",
         "initialOffset": 0,
-        "speed": 2,
+        "speed": 1,
         "animSpeed": 15,
         "lifeTime": 1,
         "loopAnim": true,
@@ -156,13 +154,13 @@
           "1"
         ]
       },
-      "id": "373746f5-0f87-4b3a-a40c-5df6545bd654"
+      "id": "eea73861-a53c-4ebe-a0ec-ad786c6e0765"
     }
   ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 51,
-  "y": 11,
-  "_index": 4
+  "x": 33,
+  "y": 14,
+  "_index": 5
 }

@@ -1,0 +1,63 @@
+{
+  "_resourceType": "actor",
+  "id": "b4c6ec30-426b-4cfe-aa57-b95b81f95d97",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "03a4bef6-ee1c-4d95-9841-0820e7262a53",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_21",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Nathan...\nI am you from the ",
+          "Future...",
+          "Please...\nDon't get coXXuptd",
+          "D21sT0y ThEM...\nESCAPE!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "acbf3aa3-78ea-4ef2-a267-2d0642da78d9"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "93745e4e-10fb-45b7-86a4-7bd8ca0b78b0"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 7,
+  "y": 7,
+  "_index": 2
+}

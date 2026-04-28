@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "fd46902b-1ab5-42e9-b645-a55a31c8b63b",
   "_index": 6,
-  "name": "Scene 7",
+  "name": "Ending1",
   "backgroundId": "5e8256f4-7593-485b-acc8-b067673e324b",
   "tilesetId": "",
   "width": 20,
@@ -13,16 +13,16 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
-  "x": 1384,
-  "y": 440,
+  "x": 1392,
+  "y": 288,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "To be continued"
+          "To be continued\n(Ending 1)"
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,

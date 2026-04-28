@@ -1,0 +1,100 @@
+{
+  "_resourceType": "actor",
+  "id": "93b915b9-f18a-4ff9-be13-9641f6b18a50",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "03a4bef6-ee1c-4d95-9841-0820e7262a53",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_20",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Nathan...\nIt seems like you",
+          "Are too early for\nwork...",
+          "I just wanted to \nmake sure if ",
+          "everything is \nalright...",
+          "You have been\nmaking too many",
+          "mistakes in your\nperformance..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "09e71811-88e7-49b5-a79c-79dc65fe067c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "SSAAAAAAvbesrgb546u\nAAAAAFSDFVWFVEWkrogr$T#"
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 1,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c8e1e6c9-5156-400d-891e-2d1e8b456129"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "65f9ea49-d97b-4293-8369-3ed5e71fb362",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "b13cf1ea-b5ce-475c-9630-c35232c0d56e"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 44,
+  "y": 8,
+  "_index": 4
+}

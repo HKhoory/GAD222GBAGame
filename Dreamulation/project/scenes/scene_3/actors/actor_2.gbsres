@@ -16,7 +16,15 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_4",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "34233904-0d91-4e8e-bd81-8c5830e964bc"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_ACTOR_GET_POSITION",
@@ -125,7 +133,7 @@
     {
       "command": "EVENT_LAUNCH_PROJECTILE",
       "args": {
-        "__section": "source",
+        "__section": "projectile",
         "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
         "spriteStateId": "",
         "actorId": "$self$",
@@ -138,14 +146,15 @@
         "angleVariable": "L0",
         "targetActorId": "player",
         "initialOffset": 0,
-        "speed": 2,
+        "speed": 1,
         "animSpeed": 15,
         "lifeTime": 1,
         "loopAnim": true,
         "destroyOnHit": true,
         "collisionGroup": "3",
         "collisionMask": [
-          "1"
+          "1",
+          "player"
         ]
       },
       "id": "b0bb7416-c9d1-4f09-b409-01b8db8fca1d"
@@ -155,6 +164,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 35,
-  "y": 13,
+  "y": 10,
   "_index": 0
 }
